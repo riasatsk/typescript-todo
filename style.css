@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+#addBtn{
+    padding: .5rem;
+    background-color: yellowgreen;
+    border-radius: 2px;
+    border: none;
+    font-size: medium}
+#addBtn:hover{
+    cursor: pointer;
+    scale: 1.1;
+
+}
+#addBtn:active{
+    scale: 1;
+}
+#newTodo{
+    padding: .5rem;
+    font-size: medium;
+    background-color: transparent;
+    border: 1px solid skyblue;
+    border-radius: 2px;
+    color: white;
+}
+.deleteBtn{
+background-color: transparent;
+border-radius: 2px;
+margin-left: 1rem;
+margin-top: 3px;
+border: 1px solid red;
+}
+.deleteBtn:hover{
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    font-size: large;
+    padding: 2rem;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
